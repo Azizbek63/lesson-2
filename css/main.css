@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.hero .container {
+    display: flex;
+    padding: 50px 0px;
+    justify-content: space-between;
+}
+
+.hero_info h1 {
+    font-size: 50px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+
+.hero_info h1 span {
+    font-weight: 300;
+}
+
+.hero_info h2 {
+    font-weight: 400;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.hero_info {
+    width: 600px;
+}
+
+.hero_img img {
+    width: 450px;
+
+}
+
+.icons {
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+
+}
+
+.video_section {
+    padding: 60px;
+    text-align: center;
+}
+
+.video_section h3 {
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.video_section img {
+    width: 1000px;
+
+}
+
+.services_section h2 {
+    text-align: center;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.service:hover {
+    background-color: #333333;
+    color: white;
+
+}
+
+.service {
+    /* display: flex; */
+    width: 330px;
+    background-color: #D6D6D6;
+    padding: 50px 30px;
+}
+
+.service h1 {
+    margin-bottom: 20px;
+}
+
+.service p {
+    margin-bottom: 40px;
+}
+
+.more {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services_section {
+    padding: 60px 0px;
+}
+
+.sliders {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 80px;
+}
+
+.hello {
+    background-color: #3a3a3acc;
+}
+
+.hello .container {
+    background: url(../img/Hello.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+
+}
+
+.hello .container h3 {
+    font-weight: 400;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    padding: 60px 0px 30px 0px;
+}
+
+.hello .container h1 {
+    font-weight: 500;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.hello .container button {
+    text-align: center;
+    width: 110px;
+    padding: 5px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.iconss {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 70px;
+    font-size: 25px;
+    color: white;
+
+}
+
+.iconss i {
+    margin-bottom: 157px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 100px 0px;
+
+}
+
+.project {
+    background-color: #ffffff5f;
+}
+
+.project .container {
+    background-image: url(../img/Project.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.cards {
+
+    text-align: center;
+    width: 200px;
+}
+
+.cards h1 {
+    align-items: center;
+    font-weight: 450;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.cards h4 {
+    align-items: center;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.block {
+    display: flex;
+    gap: 50px;
+}
+
+.box div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.box h3 {
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.My .container h2 {
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.more {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.amazing {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 80px;
+}
+
+.amazing div h4 {
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 300;
+    width: 300px;
+    margin-bottom: 200px;
+}
+
+.amazing div img {
+    width: 400px;
+}
+
+footer .container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.iconsss {
+    display: flex;
+    justify-content: end;
+
+    gap: 50px;
+}
+
+.footerr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerr div p {
+    font-size: 10px;
+}
+
+
+@media(max-width:467px) {
+    .search {
+        display: none;
+    }
+
+    .container {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+
+    .logo img {
+        width: 130px;
+    }
+
+    .hero .container {
+        flex-direction: column;
+    }
+
+    .hero_info {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .icons {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+
+
+    .hero_img img {
+        width: 100%;
+    }
+
+    .hero .container {
+        padding-bottom: 10px;
+    }
+
+    .video_section img {
+        width: 100%;
+    }
+
+    .video_section h3 {
+        text-align: left;
+        font-size: 33px;
+    }
+
+    .services {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .service {
+        width: 100%;
+    }
+
+    .arrows {
+        display: none;
+    }
+
+    .sliders {
+        padding: 50px !important;
+        justify-content: center;
+    }
+.iconss{
+    gap: 40px;
+}
+    .hello .container {
+        width: 100%;
+        background-image: none;
+    }
+ .project .container {
+        background-image: none;
+    }
+.card{
+    flex-direction: column;
+}
+.cards {
+   margin-left: 100px;
+}
+.block{
+    gap: 20px;
+    flex-direction: column;
+}
+.arrows {
+    display: none;
+}
+.box img{
+    width: 100%;
+}
+.amazing{
+    flex-direction: column;
+}
+.amazing div img{
+    width: 100%;
+}
+.footerr{
+    flex-direction: column;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+.footerr div p{
+    margin-left: 100px;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+}
